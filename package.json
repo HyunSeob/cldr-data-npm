@@ -26,7 +26,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "install": "node install.js",
+    "postinstall": "node install.js",
     "test": "grunt && node test/index.js"
   },
   "dependencies": {
